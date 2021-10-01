@@ -1,4 +1,19 @@
 
+# Shortest Path in Undirected Graph with Unit Weights
+
+## Thought Process
+
+ * Create a distance array which will store the shortest path from source to all vertices
+ * Initialize all the elements of the distance array with infinity
+ * Assign the dist of source element as 0, because distance between source and source is always zero
+ * create a queue
+ * Push the source node into queue
+ * Traverse while queue will become empty
+     * Take out the node from queue
+     * traverse all it's adjacent nodes
+     * if the distance already stored in that node i.e dis[node] + 1 is smaller than the dis
+
+
 ```cpp
 #include<bits/stdc++.h>
 using namespace std;
